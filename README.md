@@ -1,22 +1,26 @@
 ### Hi, I'm Henry Lee 👋
 
-**Backend Team Lead · Distributed transaction platforms**
+Backend Engineer and Technical Lead based in Malaysia.
 
-> I build the backend systems behind millions of daily transactions — and lead the team that runs them.
+I work on distributed backend systems for a high-concurrency transaction platform serving 400k+ daily active users and processing millions of operations each day.
 
-I lead a backend team owning the core of a high-concurrency transaction platform (**50k → 400k+ daily active users**, millions of transactions a day). I think in contracts, not just code: turning messy requirements into clean system contracts that other teams can build against in parallel. Recently I've been building an **AI-native delivery pipeline** my team ships through — AI drafts, humans gate every merge.
+Over the years, I’ve worked across legacy systems, microservices, workflow orchestration, platform tooling, and technical leadership. I’m especially interested in backend architecture, reliability, and building systems that other teams can use without depending on constant support.
 
-🔗 **[Portfolio](https://henrylee94.github.io/portfolio/)** · 🧪 **[Lab](https://henrylee94.github.io/lab/)** · 💼 **[LinkedIn](https://www.linkedin.com/in/henry-lee-985300158)** · 📄 **[Résumé](https://henrylee94.github.io/portfolio/assets/Henry-Lee-Resume.pdf)**
+🔗 [Portfolio](https://henrylee94.github.io/portfolio/) · [Lab](https://henrylee94.github.io/lab/) · [LinkedIn](https://www.linkedin.com/in/henry-lee-985300158) · [Résumé](https://henrylee94.github.io/portfolio/assets/Henry-Lee-Resume.pdf)
 
 ---
 
-**What I'm known for**
-- 🔁 Idempotency by construction — on a transaction path, a retry can only ever return the record it already created
-- 🧩 Decomposition — leading a legacy monolith onto a NestJS / gRPC + Temporal microservices stack, with a rollback built into every step
-- 🚀 Platform enablement — a contract-first integration SDK (100+ releases); new-type onboarding cut from 30–60 min to a 2-min self-serve workflow
-- 🤖 AI-native delivery — an artifact-gated pipeline of AI agents with a human approval gate at every stage
+### Selected work
 
-**Daily stack**
-`TypeScript` · `Node.js` · `NestJS` · `gRPC` · `Temporal` · `Apache Pulsar` · `MongoDB` · `Redis` · `ClickHouse` · `Docker` · `GitHub Actions`
+- Built a Temporal-based transaction workflow backbone with idempotent processing and safe retry handling
+- Developed a contract-first integration SDK with 100+ releases, reducing onboarding from 30–60 minutes to around 2 minutes
+- Helped scale the platform from 50k to 400k+ daily active users through Redis fan-out, routing, and cache redesign
+- Built data pipelines processing 10M+ records daily from multiple sources
 
-📍 Malaysia (UTC+8) · async-first · open to remote backend leadership roles
+### Main stack
+
+`TypeScript` · `Node.js` · `NestJS` · `gRPC` · `Temporal` · `Apache Pulsar` · `MongoDB` · `Redis` · `ClickHouse`
+
+📍 Malaysia (UTC+8)
+
+Always happy to connect with engineers building distributed systems, backend platforms, and developer tools.
