@@ -1,10 +1,12 @@
 ### Hi, I'm Henry Lee 👋
 
-Backend Engineer and Technical Lead based in Malaysia.
+Backend Engineer and Technical Lead based in Malaysia, with 8 years of experience building and evolving high-scale backend platforms.
 
-I work on distributed backend systems for a high-concurrency transaction platform serving 400k+ daily active users and processing millions of operations each day.
+I currently work on a transaction platform serving 400k+ daily active users and processing millions of operations each day. My experience spans legacy modernization, distributed workflows, microservices, platform tooling, production reliability, and technical leadership.
 
-Over the years, I’ve worked across legacy systems, microservices, workflow orchestration, platform tooling, and technical leadership. I’m especially interested in backend architecture, reliability, and building systems that other teams can use without depending on constant support.
+I enjoy solving the problems that appear when systems grow: unclear service boundaries, fragile workflows, operational blind spots, duplicated integration work, and architecture that no longer fits the scale.
+
+More recently, I have also been building AI-assisted engineering systems around agent orchestration, structured context, memory, verification, and human approval workflows.
 
 🔗 [Portfolio](https://henrylee94.github.io/portfolio/) · [Lab](https://henrylee94.github.io/lab/) · [LinkedIn](https://www.linkedin.com/in/henry-lee-985300158) · [Résumé](https://henrylee94.github.io/portfolio/assets/Henry-Lee-Resume.pdf)
 
@@ -12,15 +14,21 @@ Over the years, I’ve worked across legacy systems, microservices, workflow orc
 
 ### Selected work
 
-- Built a Temporal-based transaction workflow backbone with idempotent processing and safe retry handling
+- Built a Temporal-based workflow backbone for long-running transaction flows, with idempotent processing, retries, and safe recovery
 - Developed a contract-first integration SDK with 100+ releases, reducing onboarding from 30–60 minutes to around 2 minutes
-- Helped scale the platform from 50k to 400k+ daily active users through Redis fan-out, routing, and cache redesign
-- Built data pipelines processing 10M+ records daily from multiple sources
+- Helped scale the platform from 50k to 400k+ daily active users through routing, Redis fan-out, caching, and platform redesign
+- Built data pipelines processing 10M+ records daily across multiple sources
+- Introduced reusable platform capabilities that reduced duplicated integration work across backend teams
+- Built an AI-assisted delivery system with specialist agents, engineered context, artifact gates, verification, and human approvals
 
 ### Main stack
 
 `TypeScript` · `Node.js` · `NestJS` · `gRPC` · `Temporal` · `Apache Pulsar` · `MongoDB` · `Redis` · `ClickHouse`
 
-📍 Malaysia (UTC+8)
+### Current interests
 
-Always happy to connect with engineers building distributed systems, backend platforms, and developer tools.
+`Distributed Systems` · `Backend Architecture` · `Developer Platforms` · `Workflow Orchestration` · `AI-assisted Engineering`
+
+📍 Malaysia · UTC+8 · Remote-friendly
+
+Always happy to connect with engineers building reliable backend systems, developer platforms, and practical AI tooling.
